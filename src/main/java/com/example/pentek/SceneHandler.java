@@ -24,8 +24,9 @@ public class SceneHandler {
     }
 
     protected void activate(String name) {
-        Pane scene = screenMap.get(name);
-        main.setRoot(scene);
+        Pane scenePane = screenMap.get(name);
+        main.setRoot(scenePane);
+
     }
 
     // All code hosted in this class was repurposed from StackOverflow.

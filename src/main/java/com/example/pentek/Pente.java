@@ -7,4 +7,12 @@ public class Pente {
     @FXML
     GridPane gPanePenteBoard;
 
+    private void checkCapture() {
+
+    }
+
+    private bool checkFiveRow() {
+
+    }
+
 }
