@@ -11,7 +11,7 @@ public class Pente {
 
     }
 
-    private bool checkFiveRow() {
+    private boolean checkFiveRow() {
 
     }
 
