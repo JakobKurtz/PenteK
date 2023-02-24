@@ -59,15 +59,14 @@ public class Pente {
                 gPaneGameBoard.add(imageView, iCol, iRow);
             }
         }
-
-
+    }
 
     private void checkCapture() {
 
     }
 
     private boolean checkFiveRow() {
-
+        return false;
     }
 
 }
