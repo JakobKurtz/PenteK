@@ -3,22 +3,13 @@ package com.example.pentek;
 import javafx.fxml.FXML;
 import javafx.scene.layout.GridPane;
 
-public class Pente {
+public class Othello {
     @FXML
-    private static GridPane gPanePenteBoard;
-
+    private static GridPane gPaneGameBoard;
 
     @FXML
     protected void initialize() {
         // Will run on scene load
-    }
-
-    private void checkCapture() {
 
     }
-
-    private boolean checkFiveRow() {
-
-    }
-
 }
