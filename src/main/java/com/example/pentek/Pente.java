@@ -17,6 +17,7 @@ public class Pente {
     @FXML
     protected void initialize() {
         // Will run on scene load
+        setup();
     }
 
 //    // Set one constraint at a time...
@@ -52,7 +53,12 @@ public class Pente {
 
     protected void setup() {
         gameBoard = new GameToken[11][11];
-    }
+        for (int iCol = 0; iCol < 11; iCol++) {
+            for (int iRow = 0; iRow < 11; iRow++) {
+                ImageView imageView = new ImageView();
+                gPaneGameBoard.add(imageView, iCol, iRow);
+            }
+        }
 
 
 
