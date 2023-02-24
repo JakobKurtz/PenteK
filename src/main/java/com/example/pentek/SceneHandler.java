@@ -11,8 +11,9 @@ public class SceneHandler {
     private HashMap<String, Pane> screenMap = new HashMap<>();
     private Scene main;
 
-    public SceneHandler(Scene main) {
+    public SceneHandler(String name, Scene main) {
         this.main = main;
+        screenMap.put(name, main);
     }
 
     protected void addScene(String name, Pane pane) {

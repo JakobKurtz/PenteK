@@ -17,9 +17,10 @@ public class BaseApplication extends Application {
         stage.setTitle("PenteK");
         stage.setScene(sceneMain);
 
-        sh = new SceneHandler(sceneMain);
+        sh = new SceneHandler("Pente", sceneMain);
+        sh.addScene("Pente", FXMLLoader.load(getClass().getResource( "PenteDemo.fxml" )));
         sh.addScene("PenteDemo", FXMLLoader.load(getClass().getResource( "PenteDemo.fxml" )));
-
+        sh.addScene("Othello", FXMLLoader.load(getClass().getResource( "PenteDemo.fxml" )));
         stage.show();
     }
 
